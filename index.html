@@ -9,6 +9,11 @@
 <body>
     <h1>Home</h1>
     <p>Welcome to the homepage of this website!</p>
+    <nav>
+        <p><strong>Home</strong></p>
+        <a href="/about">About</a>
+        <a href="/contact-me">Contact Me</a>
+    </nav>
 </body>
 <style>
     body{
@@ -25,6 +30,13 @@
     }
     p{
         font-size: 24px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        font-size: 22px;
+        gap: 20px;
+        align-items: center;
     }
 </style>
 </html>
