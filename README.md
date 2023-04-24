@@ -1,1 +1,1 @@
-# basic-informational-site
+The aim of this project is to create a basic website using NodeJS in which you can naviagate between pages using URLs.
